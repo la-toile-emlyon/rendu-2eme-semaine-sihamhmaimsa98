@@ -1,0 +1,100 @@
+header{
+    background-image: url(assets/image-header.png);
+    min-height: 100vh;
+    background-size: cover;
+}
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.a-hero{
+    
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 1cm;
+}
+.div-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+}
+h1{
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+    flex-direction: column;
+    
+    font-size: 160px;
+    line-height: 1;
+    font-weight: 300;
+    span{
+        font-size: 53px;
+        font-style: medium;
+    }
+}
+.section-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 24px;
+}
+.date{
+    font-weight: bold;
+}
+.button1{
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.button2{
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.div-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div-button{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.section1{
+    background-color: black;
+    
+    font-family: "DM Sans", sans-serif;
+    font-style: regular;
+    padding: 64px;
+}
+.h2-section1{
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+.p-section1{
+    font-size: 20px;
+}
+.div-section1{
+    margin: auto;
+    gap: 50px;
+    width: 900px;
+}
+.div-section3{
+    margin: auto;
+    gap: 50px;
+    width: 900px;
+}
