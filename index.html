@@ -17,9 +17,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    
     <header>
         <div class="div-header">
             <a href="">
+            <!--Correction : pourquoi img est indenté ?-->
+            <!--Correction : ton image s'affiche pas. Tu es sûre de ton chemmin ?-->
                 <img 
                 src="/assets/logo-header.png"
                 alt="logo Rapture"
@@ -36,11 +39,13 @@
         <section class="section-hero">
             <div class="div-hero">
                 <h1><span>URBAN NIGHT</span> Rap Fest</h1>
+                <!-- Correction : elle sert à quoi ta div div-info ? -->
                 <div class="div-info">
                     <p class="date">04 MAI & 05 MAI</p>
                     <p class="lieu">LYON - PARC DE GERLAND 7EME</p>
                 </div>
                 <div class="div-button">
+                    <!-- Correction : on pourrait donner un meilleur nom à tes classes sur les boutons. Ex : "cta-principal" et "cta-secondaire" -->
                     <a class="button1" href="">BILLETERIE</a>
                     <a class="button2" href="">PLUS D'INFO</a>
                 </div>
@@ -48,6 +53,7 @@
         </section>
     </header>
     <main>
+        <!-- Correction : on peut aussi donner un meilleur nom à nos sections en explicitant le contenu. Ex : "section-resume" -->
         <section class="section1">
             <div class="div-section1">
                 <h2 class="h2-section1">Plongez au cœur du rythme urbain avec RAPture, le festival de rap qui célèbre la puissance 
@@ -62,6 +68,8 @@
                 plus qu’un.</p>
             </div>
         </section>
+        <!-- Correction : Est ce que l'image a une importance pour le référencement ?
+        Si ce n'est pas le cas, on préférera alors placer l'image en background de la section. -->
         <section>
             <img
             src="/assets/section-img.png"
@@ -81,29 +89,34 @@
                     <li>05 MAI - <strong class="li">KEKRA</strong></li>
                     <li>05 MAI - <strong class="li">THEODORA</strong></li>
                 </ul>
+                <!-- Correction : elle n'est pas appelé dans ton css ta classe button3. 
+                En plus tu n'as pas besoin de recréer une classe parce que ton bouton il ressemble quand même vachement au style d'un autre bouton nan ?
+                Tu pourrais leur mettre le même style ? -->
                 <a href="" class="button3">BILLETERIE</a>
             </div>
         </section>
+        <!--Correction : nomme correctement ta section en fonction de son contenu-->
         <section class="section4">
+            <!--Correction : pourquoi y'a une div ?-->
             <div>
                 <img 
-                src="/assets/spotify.png"
+                src="assets/spotify.png"
                 alt="logo spotify"
                 >
                 <img 
-                src="/assets/applemusic.png" 
+                src="assets/applemusic.png" 
                 alt="logo apple"
                 >
                 <img 
-                src="/assets/uber.png" 
+                src="assets/uber.png" 
                 alt="logo uber"
                 >
                 <img 
-                src="/assets/deezer.png" 
+                src="assets/deezer.png" 
                 alt="logo deezer"
                 >
                 <img 
-                src="/assets/motorola.png" 
+                src="assets/motorola.png" 
                 alt="logo motorola"
                 >
             </div>
@@ -130,6 +143,7 @@
                             <label for="">Message</label>
                             <input class="input4" type="text" placeholder="Message">
                         </div>
+                        <!--Correction : Ton bouton il ressemble pas à un autre bouton qui existe déjà ? utilise le même style-->
                         <a class="button4" href="">CONTACT</a>
                     </div>
                 </form>
@@ -140,6 +154,7 @@
         <div class="div-footer">
             <div class="div1-footer">
                 <p>Email</p>
+                <!--Correction : pour le href tu peux utiliser mailto pour envoyer un mail-->
                 <a class="mail2" href="">help@raptureclouds.com</a>
             </div>
             <form class="form" action="">

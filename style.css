@@ -44,12 +44,19 @@ h1{
         font-style: medium;
     }
 }
+
+/* Correction : A quoi sert le padding horizontal ici ? 
+On préférera utiliser une class "container" pour s'assurer des marges.*/
 .section-hero {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12% 24px;
 }
+
+/* Correction : pour bien te retrouver dans ton code, je te conseille d'appeler tes classes dans ton css
+dans le même ordre que dans ton html. Donc après section-hero il faudrait div-hero. */
+
 .date{
     font-weight: bold;
 }
@@ -124,6 +131,8 @@ ul{
 .li1{
     border-top: 1px dashed white;
 }
+/* Correction : Tu peux appeler directement les strong dans li donc en écrivant :
+li strong {} */
 .li{
     font-weight: lighter;
 }
@@ -138,7 +147,7 @@ li{
     border-radius: 5px;
 }
 .section4{
-    background-image: url(/assets/banniere-logo.png);
+    background-image: url(assets/banniere-logo.png);
     height: 50vh;
     display: flex;
     align-items: center;
